@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Pinyon+Script&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-align: center;
+    /* border: 1px solid  red; */
+}
+
+body {
+    /* background-color: #5817176c; */
+    background-image: url("../imagens/fundo.jpg");
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.box {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    
+    /* background-color: #ffffff; */
+    background-color: #ffffffe5 ;
+    
+    /* height: 600px; */
+    height: 95%;
+    /* height: max(95%); */
+    width: 350px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 5px #0000006c;
+    /* padding:  0 20px; */
+
+    /* backdrop-filter: blur(30px); */
+}
+
+
+
+.imagem_casal {
+    height:350px;
+    width:100%;
+    /* margin-top: auto top; */
+    /* margin-left: -20px; */
+    border-radius: 5px 5px 30% 30% / 5px 5px 15% 15%;
+    margin-bottom: 10px;
+    
+}
+
+.texto_biblico p {
+    font-size: 15px;
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 5px;
+    font-family: 'Amatic SC', cursive;
+    /* font-family: 'Pinyon Script', cursive; */
+}
+
+.nome-casal {
+    font-size: 45px;
+    padding: 25px;
+    margin: 5px 15px;
+    background-color: #ffffff;
+    border-radius: 60% 40% 60% 40% / 60% 40% 60% 40%;
+    Line-height: 32px;
+    /* box-shadow: 0 0 5px 5px #5a42226c; */
+    font-family: 'Dancing Script', cursive;
+    
+}
+
+
+
+.date {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 60% 30% 60% 40% / 60% 40% 60% 40%;
+    margin: 7px 15px;
+    padding: 10px;
+}
+.day {
+    
+    font-family: 'Delicious Handrawn', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-size: 27px;
+    
+    
+}
+
+.description {
+    
+    font-family: 'Dancing Script', cursive;
+    font-size: 18px;
+}
+
+
+
+
+.links {
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: space-around;
+    
+    
+    padding-bottom: 30px;
+    
+
+}
+
+ion-icon {
+    width:25px;
+    height: 25px;
+    background-color: #581717;
+    color: #ffffff;
+    padding: 7px; 
+
+    border-radius: 150px;
+}
+
+.links a {
+    text-decoration: none;
+    cursor:pointer;
+    color: black;
+}
+
+.links p {
+    font-family: 'Amatic SC', cursive;
+}
