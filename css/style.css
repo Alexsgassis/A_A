@@ -39,7 +39,7 @@ body {
     background-color: #ffffffe5 ;
     
     /* height: 600px; */
-    height: 95%;
+    height: auto;
     /* height: max(95%); */
     width: 350px;
     border-radius: 5px;
@@ -62,16 +62,16 @@ body {
 }
 
 .texto_biblico p {
-    font-size: 10px;
+    font-size: 12px;
     font-family: 'Dancing Script', cursive;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
     font-family: 'Amatic SC', cursive;
     /* font-family: 'Pinyon Script', cursive; */
 }
 .texto_convida p {
     font-size: 20px;
     font-family: 'Dancing Script', cursive;
-    margin-bottom: 1px;
+    margin-bottom: 5px;
     font-family: 'Amatic SC', cursive;
     /* font-family: 'Pinyon Script', cursive; */
 }
@@ -91,6 +91,7 @@ body {
 
 
 .date {
+    
     display: flex;
     flex-direction: column;
     background-color: #fff;
@@ -102,7 +103,7 @@ body {
     
     font-family: 'Delicious Handrawn', cursive;
     font-family: 'Dancing Script', cursive;
-    font-size: 27px;
+    font-size: 35px;
     
     
 }
@@ -110,7 +111,7 @@ body {
 .description {
     
     font-family: 'Dancing Script', cursive;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 
